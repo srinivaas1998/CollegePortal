@@ -354,3 +354,171 @@ public class Student_Portal
 		}
 }
 
+
+//Output
+/*
+Welcome to College Portal
+Please Select the Department 1.CSE 2.ECE 3.IT
+CSE
+Select the option on Course 1.Add 2.View 
+Add
+Where do u want to add  1.Sub 2.Stu
+Sub
+HCI
+CSE OS C C++ HCI  
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+CSE
+Select the option on Course 1.Add 2.View 
+Add
+Where do u want to add  1.Sub 2.Stu
+Stu
+Enter Name: 
+Muthu
+Enter Email: 
+csamgs@gmail.com
+Enter DOB: 
+11/08/64
+Enter Phone: 
+7689556789
+Ram ram@gmail.com 11/12/98 9445678965 CSE
+Muthu csamgs@gmail.com 11/08/64 7689556789 CSE
+ 
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+ECE
+Select the option on Course 1.Add 2.View 
+Add
+Where do u want to add  1.Sub 2.Stu
+Sub
+DC
+ECE ADC DPSD DSP DC  
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+ECE
+Select the option on Course 1.Add 2.View 
+Add
+Where do u want to add  1.Sub 2.Stu
+Stu
+Enter Name: 
+Don
+Enter Email: 
+don@gmail.com
+Enter DOB: 
+11/11/98
+Enter Phone: 
+7658678906
+Raman raman@gmail.com 11/10/98 8967534213 ECE
+Don don@gmail.com 11/11/98 7658678906 ECE
+ 
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+IT
+Select the option on Course 1.Add 2.View 
+Add
+Where do u want to add  1.Sub 2.Stu
+Sub
+Python
+IT OS Java SE Python  
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+IT
+Select the option on Course 1.Add 2.View 
+Add
+Where do u want to add  1.Sub 2.Stu
+Stu
+Enter Name: 
+Jhon
+Enter Email: 
+jhon@gmail.com
+Enter DOB: 
+11/05/98
+Enter Phone: 
+7654378907
+Ramani ramani@gmail.com 11/11/98 7868545678 IT
+Jhon jhon@gmail.com 11/05/98 7654378907 IT
+ 
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+CSE
+Select the option on Course 1.Add 2.View 
+View
+Where do u want to add  1.Sub 2.Stu
+Sub
+CSE OS C C++ HCI  
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+CSE
+Select the option on Course 1.Add 2.View 
+View
+Where do u want to add  1.Sub 2.Stu
+Stu
+Ram ram@gmail.com 11/12/98 9445678965 CSE
+Muthu csamgs@gmail.com 11/08/64 7689556789 CSE
+ 
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+ECE
+Select the option on Course 1.Add 2.View 
+View
+Where do u want to add  1.Sub 2.Stu
+Sub
+ECE ADC DPSD DSP DC  
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+ECE
+Select the option on Course 1.Add 2.View 
+View
+Where do u want to add  1.Sub 2.Stu
+Stu
+Raman raman@gmail.com 11/10/98 8967534213 ECE
+Don don@gmail.com 11/11/98 7658678906 ECE
+ 
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+IT
+Select the option on Course 1.Add 2.View 
+View
+Where do u want to add  1.Sub 2.Stu
+Sub
+IT OS Java SE Python  
+Do you want to continue Y/N
+Y
+Please Select the Department 1.CSE 2.ECE 3.IT
+IT
+Select the option on Course 1.Add 2.View 
+View
+Where do u want to add  1.Sub 2.Stu
+Stu
+Ramani ramani@gmail.com 11/11/98 7868545678 IT
+Jhon jhon@gmail.com 11/05/98 7654378907 IT
+ 
+Do you want to continue Y/N
+N
+Ram ram@gmail.com 11/12/98 9445678965 CSE
+
+Raman raman@gmail.com 11/10/98 8967534213 ECE
+
+Ramani ramani@gmail.com 11/11/98 7868545678 IT
+
+Muthu csamgs@gmail.com 11/08/64 7689556789 CSE
+
+Don don@gmail.com 11/11/98 7658678906 ECE
+
+Jhon jhon@gmail.com 11/05/98 7654378907 IT
+
+CSE OS C C++ HCI 
+ECE ADC DPSD DSP DC 
+IT OS Java SE Python 
+*/
+
