@@ -18,7 +18,7 @@ class MAX_VAL
 class Student 
 {
 	String sName,sEmail,sDOB;
-	long lPhone;
+	String lPhone;
 	Dept dDept = new Dept();
 	public void DisplayStu()
 	{
@@ -81,7 +81,7 @@ class Test_Student_Portal extends MAX_VAL{
 		System.out.println("Enter DOB: ");
 		String sDOB=s.nextLine();
 		System.out.println("Enter Phone: ");
-		long sPhone=s.nextLong();
+		String sPhone=s.nextLine();
 		
 		Student stu = new Student();
 		stu.sName = sName;
@@ -128,19 +128,19 @@ class Test_Student_Portal extends MAX_VAL{
 		sStudent[0].sName = "Ram";
 		sStudent[0].sEmail = "ram@gmail.com";
 		sStudent[0].sDOB = "11/12/98";
-		sStudent[0].lPhone = 1111111111;
+		sStudent[0].lPhone = "9445678906";
 		sStudent[0].dDept = dDept[0];    //CSE
 		
 		sStudent[1].sName = "Raman";
 		sStudent[1].sEmail = "raman@gmail.com";
 		sStudent[1].sDOB = "11/10/98";
-		sStudent[1].lPhone = 1111111112;
+		sStudent[1].lPhone = "9445678905";
 		sStudent[1].dDept = dDept[1];
 		
 		sStudent[2].sName = "Ramani";
 		sStudent[2].sEmail = "ramani@gmail.com";
 		sStudent[2].sDOB = "11/11/98";
-		sStudent[2].lPhone = 1111111113;
+		sStudent[2].lPhone = "9445675906";
 		sStudent[2].dDept = dDept[2];
 		CUR_STU = 3;
 	}
@@ -151,7 +151,7 @@ class Test_Student_Portal extends MAX_VAL{
 		for(int i=0;i<sStudent.length;i++) 
 			if (sStudent[i].dDept.sDeptName == str)
 				sStudent[i].DisplayStu();
-		}catch(Exception e) {}
+		}catch(Exception e) {System.out.println(e);}
 		
 	}
 	void viewSub(String str)
@@ -183,7 +183,7 @@ class Test_Student_Portal extends MAX_VAL{
 		do {
 		System.out.println("Please Select the Department 1.CSE 2.ECE 3.IT");
 		String dept=s.nextLine();
-		//System.out.println("what i get dept:"+dept);
+		
 		switch(dept) {
 		case "CSE":{
 			       System.out.println("Select the option on Course 1.Add 2.View ");
